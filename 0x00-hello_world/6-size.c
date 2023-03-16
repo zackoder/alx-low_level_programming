@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/*
+ *that is a programe in c shows users the some of the data type and how many bytes it needs
+ * if it work it will return 0 
+*/
 int main(void)
 {
 	printf("Size of a chat: %zu byte(s)\n", sizeof(char));
