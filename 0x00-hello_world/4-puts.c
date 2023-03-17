@@ -1,12 +1,15 @@
 #include <stdio.h>
-/*
- *main: using puts for the first time
- *return 0
+
+/**
+ * main - Entry point
+ *
+ * Description: A C program that prints with put function
+ *
+ * Return: Always 0 (Success)
 */
 
 int main(void)
-{	
-	char myFirstPuts[] = "\"Programming is like building a multilingual puzzle";
-	puts(myFirstPuts);
+{
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
