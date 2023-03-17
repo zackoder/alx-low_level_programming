@@ -6,7 +6,7 @@
 
 int main(void)
 {	
-char myFirstPuts[] = "\"Programming is like building a multilingual puzzle";
-puts(myFirstPuts);
-return 0;
+	char myFirstPuts[] = "\"Programming is like building a multilingual puzzle";
+	puts(myFirstPuts);
+	return (0);
 }
