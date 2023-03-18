@@ -1,13 +1,21 @@
 #include <stdio.h>
 
-/*
- * main - prints numbers from 0 to 9
- * if it's right it will return 0 if not it will return 1
- * */
+/**
+ * main - alphabet from z to a
+ * Return: 0
+ */
+int main(void)
 int main(void)
 {
-	int n = 0;
-	for (n ; n < 10; n++)
-		putchar(n);
-	putchar("\n");
-	return (0);
+    int i;
+
+    for (i = 'z'; i >= 'a'; i--)
+    {
+        putchar(i);
+    }
+
+    putchar('\n');
+
+    return 0;
+}
+

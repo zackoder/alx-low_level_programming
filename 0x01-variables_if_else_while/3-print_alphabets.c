@@ -2,7 +2,8 @@
 
 
 /*
- * main - alphabits uppercase
+ * main - alphabits lowercase and uppercase
+ * 
  * Return: 0
  */
 
