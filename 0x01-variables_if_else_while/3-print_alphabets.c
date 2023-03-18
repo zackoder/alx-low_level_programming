@@ -1,9 +1,12 @@
 #include <stdio.h>
 
+
 /*
- * main : alphabits uppercase
+ * main - alphabits uppercase
  * Return: 0
  */
+
+
 int main(void)
 {
 	char a = 'a';
@@ -12,11 +15,11 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	a = 'A';
-	while (a <= 'Z')
+	char b = 'A';
+	while (b <= 'Z')
 	{
 		putchar(a);
-		a++;
+		b++;
 	}
 	putchar('\n');
 	return (0);
