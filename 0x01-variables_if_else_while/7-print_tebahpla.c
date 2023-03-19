@@ -4,7 +4,7 @@
  * main - alphabet from z to a
  * Return: 0
  */
-int main(void)
+
 int main(void)
 {
     int i;
