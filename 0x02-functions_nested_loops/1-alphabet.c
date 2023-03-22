@@ -2,12 +2,14 @@
 /*
  * main - prints the alphabets 
  * 
- *returncs 0
- * */
-int main(void)
+ * returncs 0
+ */
+void print_alphabet(void)
 {
-	int i;
-	for  (i = 'a' ; i < 'z'; i++)
-	       _putchar(i + '0');
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
 	_putchar('\n');
-}	
+}

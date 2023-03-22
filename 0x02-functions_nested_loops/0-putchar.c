@@ -1,7 +1,6 @@
 #include "main.h"
 /*
- * main - check the code
- *
+ * main - main  is a function prints _putchar without using stdio.h
  * returns (0)
  */
 int main(void)
