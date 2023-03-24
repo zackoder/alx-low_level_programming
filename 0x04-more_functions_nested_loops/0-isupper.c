@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - that is the _isupper function
+ * main - that is the _isupper function it checkes if the letter is uppercase or 
+ * lowercese
  * it returns 0
  */
 
